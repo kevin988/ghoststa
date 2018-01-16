@@ -63,8 +63,13 @@ code {
 
 .post-header {
   margin-bottom: 10px; }
-  .post-header h2 {
-    margin-bottom: 0; }
+  .post-header h2 a {
+    margin-bottom: 0;
+    color: #000;}
+  .post-header h2 a:hover {
+	text-decoration: none;
+    margin-bottom: 0;
+	color: #49aec0;}
 
 .post-meta ul li {
   font-size: 13px;
@@ -763,21 +768,23 @@ input::-webkit-inner-spin-button {
     .menu-item:last-child:before {
       border-bottom-left-radius: 2px; }
   .menu-item:hover {
-    text-decoration: none;
-    background-color: #f9f9f9; }
+	text-decoration: none;
+	color: #49aec0;
+    background-color: #fff; }
   .menu-item.selected {
     font-weight: bold;
     color: #222;
     cursor: default;
     background-color: #fff; }
     .menu-item.selected:before {
+      text-decoration: none;
       position: absolute;
       top: 0;
       left: 0;
       bottom: 0;
       width: 2px;
       content: "";
-      background-color: #d26911; }
+      background-color: #F75940; }
   .menu-item .octicon {
     margin-right: 5px;
     width: 16px;
@@ -788,7 +795,7 @@ input::-webkit-inner-spin-button {
     margin-left: 5px; }
   .menu-item .menu-warning {
     float: right;
-    color: #d26911; }
+    color: #F75940; }
   .menu-item .avatar {
     float: left;
     margin-right: 5px; }

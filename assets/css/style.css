@@ -63,12 +63,13 @@ code {
 
 .post-header {
   margin-bottom: 10px; }
-  .post-header h2 {
+  .post-header h2 a {
     margin-bottom: 0;
-    color: #476269;}
-  .post-header h2:hover {
+    color: #000;}
+  .post-header h2 a:hover {
+	text-decoration: none;
     margin-bottom: 0;
-	color: #40a798}
+	color: #49aec0;}
 
 .post-meta ul li {
   font-size: 13px;
@@ -767,7 +768,8 @@ input::-webkit-inner-spin-button {
     .menu-item:last-child:before {
       border-bottom-left-radius: 2px; }
   .menu-item:hover {
-	color: #40a798;
+	text-decoration: none;
+	color: #49aec0;
     background-color: #fff; }
   .menu-item.selected {
     font-weight: bold;
@@ -775,6 +777,7 @@ input::-webkit-inner-spin-button {
     cursor: default;
     background-color: #fff; }
     .menu-item.selected:before {
+      text-decoration: none;
       position: absolute;
       top: 0;
       left: 0;
